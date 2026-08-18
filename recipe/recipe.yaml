@@ -1,5 +1,5 @@
 context:
-  version: "3.7"
+  version: "3.7c"
 
 package:
   name: tmux
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/tmux/tmux/archive/${{ version }}.tar.gz
-  sha256: 123b9ed37c7ee957327a483024ea6ae0e6032348c02680be2ac91b9350e62d36
+  sha256: 5e7b0f533b66e5633e2b72a9d483f9534a343ab7011eb2621b6309dfba553daa
 
 build:
   number: 0
@@ -35,6 +35,7 @@ requirements:
     - if: osx
       then:
         - libutf8proc
+        - jemalloc
   run:
     - libevent
     - ncurses
