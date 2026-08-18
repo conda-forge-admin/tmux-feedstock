@@ -1,5 +1,5 @@
 context:
-  version: "3.7b"
+  version: "3.7"
 
 package:
   name: tmux
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/tmux/tmux/archive/${{ version }}.tar.gz
-  sha256: 156dc43dcbc7f06e35e1fae3118c44d77a370c46676b34b82bbafc4e608d8130
+  sha256: 123b9ed37c7ee957327a483024ea6ae0e6032348c02680be2ac91b9350e62d36
 
 build:
   number: 0
